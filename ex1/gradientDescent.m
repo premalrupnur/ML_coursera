@@ -25,7 +25,7 @@ for iter = 1:num_iters
       differential = J/m ;
   
       theta = theta - alpha*differential;
-      J_history(iter) = sum(costfunc)/(2*m) ;
+      
       
       
     
