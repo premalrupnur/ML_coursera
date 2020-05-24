@@ -32,10 +32,10 @@ for i=1:8
     
   end
 end
-[t it]=min(error);
-[p ip]=min(min(error));
-C=A(it(ip));
-sigma=A(ip);
+[r rows]=min(error);
+[c col]=min(min(error));
+C=A(rows(col));
+sigma=A(col);
 
 
 
