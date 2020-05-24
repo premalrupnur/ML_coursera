@@ -50,7 +50,7 @@ x = zeros(n, 1);
 
 for i=1:n
   x(i)=sum(i==word_indices);
-  if x(i)
+  if x(i)!=1
     x(i)=x(i)/(sum(i==word_indices));
   end
 end
